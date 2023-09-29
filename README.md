@@ -23,22 +23,24 @@ Define a variable **c0_in_fahrenheit** and set it equal to the value of **c_to_f
 
 6. Test **get_force** by calling it with the variables **train_mass** and **train_acceleration**.
 Save the result to a variable called train_force and print it out.
+
 **train_mass** and **train_acceleration** have been defined below
+
 `train_mass = 22680`
 'train_acceleration = 10'
 `train_distance = 100`
 `bomb_mass = 1`
 
-7. Print the string _“The GE train supplies X Newtons of force.”_, with _X_ replaced by **train_force**.
+8. Print the string _“The GE train supplies X Newtons of force.”_, with _X_ replaced by **train_force**.
 
-8. Define a function called **get_energy** that takes in **mass** and **c**.
+9. Define a function called **get_energy** that takes in **mass** and **c**.
 **c** is a constant that is usually set to the speed of light, which is roughly 3 x 10^8. Set **c** to have a default value of _3*10**8_.
 **get_energy** should return **mass** multiplied by **c** squared.
 
-9. Test **get_energy** by using it on **bomb_mass**, with the default value of **c**. Save the result to a variable called **bomb_energy**.
+10. Test **get_energy** by using it on **bomb_mass**, with the default value of **c**. Save the result to a variable called **bomb_energy**.
 **bomb_mass** has been defined for you at the top of script.py. Make sure to uncomment this line before trying to use **bomb_mass**.
 
-10. Print the string _“A 1kg bomb supplies X Joules.”_, with _X_ replaced by **bomb_energy**.
+11. Print the string _“A 1kg bomb supplies X Joules.”_, with _X_ replaced by **bomb_energy**.
 
 ### Do the Work
 11. Define a final function called **get_work** that takes in **mass**, **acceleration**, and **distance**.

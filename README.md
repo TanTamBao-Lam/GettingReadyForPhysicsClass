@@ -25,9 +25,13 @@ Define a variable **c0_in_fahrenheit** and set it equal to the value of **c_to_f
 Save the result to a variable called train_force and print it out.
 
 **train_mass** and **train_acceleration** have been defined below
+
   `train_mass = 22680`
+  
   `train_acceleration = 10`
+  
   `train_distance = 100`
+  
   `bomb_mass = 1`
 
 8. Print the string _“The GE train supplies X Newtons of force.”_, with _X_ replaced by **train_force**.
